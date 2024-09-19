@@ -2,6 +2,7 @@ package commandPattern;
 
 public class Tv {
 
+    
     public String switchOn() {
         return "Tv is switched-on!";
     }

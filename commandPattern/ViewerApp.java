@@ -5,6 +5,8 @@ public class ViewerApp {
         Tv tv = new Tv();
         RemoteControl rc = new RemoteControl();
         MusicPlayer musicPlayer = new MusicPlayer();
+        Lights lights = new Lights();
+        Thermostat thermos = new Thermostat();
 
         PowerOn powerOn = new PowerOn(tv);
         System.out.println(powerOn.execute());
@@ -21,7 +23,13 @@ public class ViewerApp {
         BrightnessDown brightnessDown = new BrightnessDown(lights);
         System.out.println(brightnessDown.execute());
 
-        BrightnessUP brightnessUp = new BrightnessUp(lights);
+        BrightnessUp brightnessUp = new BrightnessUp(lights);
         System.out.println(brightnessUp.execute());
+
+        TempDown tempDown = new TempDown(thermos);
+        System.out.println(tempDown.execute());
+
+        TempUp tempUp = new TempUp(thermos);
+        System.out.println(tempUp.execute());
     }
 }

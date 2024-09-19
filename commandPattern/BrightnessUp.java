@@ -8,6 +8,6 @@ public class BrightnessUp implements Command {
     }
     @Override
     public String execute() {
-        return lights.BrightnessUp();
+        return lights.brightnessUp();
     }
 }

@@ -3,7 +3,7 @@ package commandPattern;
 public class MusicPlayer {
 
     
-    public String voulumeDown() {
+    public String volumeDown() {
         return "Volume is down";
     }
 

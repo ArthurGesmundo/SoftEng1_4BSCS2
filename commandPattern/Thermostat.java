@@ -7,7 +7,7 @@ public class Thermostat {
         return "temp is down";
     }
 
-    public String tempUP(){
+    public String tempUp(){
         return "temp is up";
     }
 }

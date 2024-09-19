@@ -3,7 +3,7 @@ package commandPattern;
 public class VolumeDown implements Command {
     
     private MusicPlayer musicPlayer;
-    public volumeDown(MusicPlayer musicPlayer){
+    public VolumeDown(MusicPlayer musicPlayer){
         this.musicPlayer = musicPlayer;
     }
     @Override

@@ -1,4 +1,4 @@
-package adapterPatternAct
+package adapterPatternAct;
 //adapter
 public class LibrarySystemAdapter implements SchoolManagementApp{
     private LibrarySystem librarySystem;
@@ -9,6 +9,6 @@ public class LibrarySystemAdapter implements SchoolManagementApp{
 
     @Override
     public String integrateSystem(){
-        return attendanceSystem.manageBooks();
+        return librarySystem.manageBooks();
     }
 }

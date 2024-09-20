@@ -1,4 +1,4 @@
-package adapterPatternAct
+package adapterPatternAct;
 //adapter
 public class AttendanceSystemAdapter implements SchoolManagementApp{
     private AttendanceSystem attendanceSystem;

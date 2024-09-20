@@ -1,4 +1,4 @@
-package adapterPatternAct
+package adapterPatternAct;
 //adapter
 public class GradingSystemAdapter implements SchoolManagementApp{
     private GradingSystem gradingSystem;

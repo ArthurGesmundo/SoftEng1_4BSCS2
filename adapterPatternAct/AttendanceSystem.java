@@ -1,4 +1,4 @@
-package adapterPatternAct
+package adapterPatternAct;
 //adaptee
 public class AttendanceSystem{
     public String markAttendance(){

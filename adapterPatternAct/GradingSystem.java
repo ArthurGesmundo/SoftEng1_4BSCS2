@@ -1,4 +1,4 @@
-package adapterPatternAct
+package adapterPatternAct;
 //adaptee
 public class GradingSystem{
     public String recordGrades(){
